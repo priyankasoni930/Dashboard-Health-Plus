@@ -81,9 +81,6 @@ const ConsultationsPage = () => {
       <div className="space-y-6">
         <div className="flex items-center justify-between">
           <h1 className="text-2xl font-semibold text-dashboard-blue">Consultations</h1>
-          <button className="px-4 py-2 bg-dashboard-blue text-white rounded-md hover:bg-dashboard-blue/90 transition-colors">
-            New Consultation
-          </button>
         </div>
 
         <div className="flex items-center gap-2 mb-4">
