@@ -111,9 +111,6 @@ const PatientsPage = () => {
                 onChange={(e) => setSearchQuery(e.target.value)}
               />
             </div>
-            <button className="px-4 py-2 bg-dashboard-blue text-white rounded-md hover:bg-dashboard-blue/90 transition-colors">
-              Add Patient
-            </button>
           </div>
         </div>
 
