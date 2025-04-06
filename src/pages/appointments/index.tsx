@@ -94,10 +94,6 @@ const AppointmentsPage = () => {
       <div className="space-y-6">
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
           <h1 className="text-xl sm:text-2xl font-semibold text-dashboard-blue">Appointments</h1>
-          <button className="px-4 py-2 bg-dashboard-blue text-white rounded-md hover:bg-dashboard-blue/90 transition-colors flex items-center justify-center gap-2">
-            <Plus size={16} />
-            <span>Schedule Appointment</span>
-          </button>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
