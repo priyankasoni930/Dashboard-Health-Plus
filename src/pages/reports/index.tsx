@@ -96,17 +96,6 @@ const ReportsPage = () => {
       <div className="space-y-6">
         <div className="flex items-center justify-between">
           <h1 className="text-2xl font-semibold text-dashboard-blue">Reports</h1>
-          <div className="flex gap-3">
-            <button className="px-4 py-2 border border-gray-200 text-gray-700 rounded-md hover:bg-gray-50 transition-colors flex items-center gap-2">
-              <Filter size={16} />
-              Filter
-              <ChevronDown size={14} />
-            </button>
-            <button className="px-4 py-2 bg-dashboard-blue text-white rounded-md hover:bg-dashboard-blue/90 transition-colors flex items-center gap-2">
-              <FileText size={16} />
-              Generate Report
-            </button>
-          </div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -114,15 +103,6 @@ const ReportsPage = () => {
             <Card>
               <CardHeader className="flex flex-row items-center justify-between pb-2">
                 <CardTitle className="text-lg">Generated Reports</CardTitle>
-                <div className="flex items-center gap-2">
-                  <span className="text-sm text-gray-500">Sort by:</span>
-                  <select className="px-2 py-1 border border-gray-200 rounded-md bg-white text-sm">
-                    <option>Date (Newest)</option>
-                    <option>Date (Oldest)</option>
-                    <option>Name (A-Z)</option>
-                    <option>Name (Z-A)</option>
-                  </select>
-                </div>
               </CardHeader>
               <CardContent>
                 <Table>
