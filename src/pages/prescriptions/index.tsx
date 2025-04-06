@@ -84,16 +84,6 @@ const PrescriptionsPage = () => {
       <div className="space-y-6">
         <div className="flex items-center justify-between">
           <h1 className="text-2xl font-semibold text-dashboard-blue">Prescriptions</h1>
-          <div className="flex gap-3">
-            <button className="px-4 py-2 border border-gray-200 text-gray-700 rounded-md hover:bg-gray-50 transition-colors flex items-center gap-2">
-              <RefreshCcw size={16} />
-              Refill Request
-            </button>
-            <button className="px-4 py-2 bg-dashboard-blue text-white rounded-md hover:bg-dashboard-blue/90 transition-colors flex items-center gap-2">
-              <Pill size={16} />
-              New Prescription
-            </button>
-          </div>
         </div>
 
         <Card>
