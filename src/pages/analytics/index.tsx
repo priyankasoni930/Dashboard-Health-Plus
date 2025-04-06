@@ -69,20 +69,6 @@ const AnalyticsPage = () => {
       <div className="space-y-6">
         <div className="flex items-center justify-between">
           <h1 className="text-2xl font-semibold text-dashboard-blue">Analytics</h1>
-          <div className="flex gap-2">
-            <select 
-              className="px-3 py-1.5 border border-gray-200 rounded-md bg-white"
-              value={timeRange}
-              onChange={(e) => setTimeRange(e.target.value)}
-            >
-              <option value="monthly">Last 30 Days</option>
-              <option value="quarterly">Last Quarter</option>
-              <option value="yearly">Last Year</option>
-            </select>
-            <button className="px-3 py-1.5 bg-dashboard-blue text-white rounded-md">
-              Export Data
-            </button>
-          </div>
         </div>
 
         <Card>
