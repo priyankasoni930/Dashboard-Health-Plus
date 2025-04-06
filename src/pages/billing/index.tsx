@@ -105,16 +105,6 @@ const BillingPage = () => {
       <div className="space-y-6">
         <div className="flex items-center justify-between">
           <h1 className="text-2xl font-semibold text-dashboard-blue">Billing</h1>
-          <div className="flex gap-3">
-            <button className="px-4 py-2 border border-gray-200 text-gray-700 rounded-md hover:bg-gray-50 transition-colors flex items-center gap-2">
-              <Download size={16} />
-              Export
-            </button>
-            <button className="px-4 py-2 bg-dashboard-blue text-white rounded-md hover:bg-dashboard-blue/90 transition-colors flex items-center gap-2">
-              <FileText size={16} />
-              New Invoice
-            </button>
-          </div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
